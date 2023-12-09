@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "day1",
+    "day2",
+    "day3",
+    "day4"
+]
+resolver = "2"
+
+[workspace.dependencies]
+itertools = "0.12.0"
+range-ext = "0.3.0"
